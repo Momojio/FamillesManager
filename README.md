@@ -1,9 +1,12 @@
 # FamillesManager
 FamillesManager for Revit / Gestionnaire de Familles pour Revit
+
 Overview
-FamillesManager is a Revit plugin designed to help users efficiently browse, search, and load Revit family files (.rfa) directly within the Revit environment. It provides a modern, user-friendly interface with Material Design elements for an enhanced user experience.
+
+FamiliesManager is a sophisticated WPF MVVM desktop plugin built for Autodesk Revit that revolutionizes how users browse, search, and load Revit family files (.RFA). It replaces the cumbersome, text-based Revit built-in browser with an intuitive, visual, and efficient modern interface, significantly improving the user experience and productivity for architects and BIM modelers.
 
 Features
+
 •	Family Browsing: Navigate through folders containing Revit family files
 •	Thumbnail Preview: Visual preview of each family with icons
 •	Search Functionality: Find families by name using keywords
@@ -12,12 +15,14 @@ Features
 •	Modern UI: Clean, Material Design-inspired interface
 
 Installation
+
 •	Build the project in Visual Studio
 •	Copy the generated .dll file to your Revit add-ins folder
 •	Restart Revit (if it was running)
 •	Find the plugin in the Revit Add-Ins tab
 
 Usage
+
 •	Launch Revit and open a project
 •	Navigate to the Add-Ins tab and click on FamillesManager
 •	Use the "Parcourir" button to select a folder containing .rfa files
@@ -26,15 +31,26 @@ Usage
 •	Click "Charger" on any family to load it into your Revit project
 •	Place the family in your project as you normally would
 
+Technical Stack:
+
+•	Languages: C#, XAML
+•	Frameworks: .NET Framework, WPF, MVVM Pattern
+•	APIs: Autodesk Revit API, RevitStorage API
+•	Libraries: Material Design In XAML Toolkit, Windows Forms Integration
+
 Requirements
+
 •	Autodesk Revit 2018 or newer
 •	.NET Framework 4.8
 •	Windows 10 or newer
 ──────────────────────────────────────────────────
+
 Aperçu
-FamillesManager est un plugin Revit conçu pour aider les utilisateurs à parcourir, rechercher et charger des fichiers de famille Revit (.rfa) directement dans l'environnement Revit. Il offre une interface moderne et conviviale avec des éléments Material Design pour une expérience utilisateur améliorée.
+
+FamillesManager est un plugin desktop WMV MVVM sophistiqué développé pour Autodesk Revit qui révolutionne la façon de parcourir, rechercher et charger les fichiers de familles Revit (.RFA). Il remplace le navigateur intégré fastidieux et textuel de Revit par une interface moderne, intuitive et visuelle, améliorant significativement l'expérience utilisateur et la productivité des architectes et modeleurs BIM.
 
 Fonctionnalités
+
 •	Parcours des familles: Naviguez dans les dossiers contenant des fichiers de famille Revit
 •	Aperçu miniature: Visualisation de chaque famille avec des icônes
 •	Fonction de recherche: Trouvez des familles par nom à l'aide de mots-clés
@@ -43,12 +59,14 @@ Fonctionnalités
 •	Interface moderne: Interface épurée inspirée de Material Design
 
 Installation
+
 •	Compilez le projet dans Visual Studio
 •	Copiez le fichier .dll généré dans votre dossier de modules complémentaires Revit
 •	Redémarrez Revit (s'il était en cours d'exécution)
 •	Trouvez le plugin dans l'onglet Modules complémentaires de Revit
 
 Utilisation
+
 •	Lancez Revit et ouvrez un projet
 •	Accédez à l'onglet Modules complémentaires et cliquez sur FamillesManager
 •	Utilisez le bouton "Parcourir" pour sélectionner un dossier contenant des fichiers .rfa
@@ -57,7 +75,17 @@ Utilisation
 •	Cliquez sur "Charger" sur n'importe quelle famille pour la charger dans votre projet Revit
 •	Placez la famille dans votre projet comme vous le feriez normalement
 
+Stack Technique :
+
+•	Langages : C#, XAML
+•	Frameworks : .NET Framework, WPF, Pattern MVVM
+•	APIs : Autodesk Revit API, API RevitStorage
+•	Bibliothèques : Material Design In XAML Toolkit, Windows Forms Integration
+
 Exigences
+
 •	Autodesk Revit 2018 ou plus récent
 •	.NET Framework 4.8
 •	Windows 10 ou plus récent
+
+![Demo](./FamillesManager_Demo.png)

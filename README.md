@@ -40,14 +40,14 @@ Technical Stack:
 
 Requirements
 
-•	Autodesk Revit 2018 or newer
+•	Autodesk Revit 2018 or later
 •	.NET Framework 4.8
-•	Windows 10 or newer
+•	Windows 10 or later
 ──────────────────────────────────────────────────
 
 Aperçu
 
-FamillesManager est un plugin desktop WMV MVVM sophistiqué développé pour Autodesk Revit qui révolutionne la façon de parcourir, rechercher et charger les fichiers de familles Revit (.RFA). Il remplace le navigateur intégré fastidieux et textuel de Revit par une interface moderne, intuitive et visuelle, améliorant significativement l'expérience utilisateur et la productivité des architectes et modeleurs BIM.
+FamillesManager est un plugin desktop WPF MVVM complexe développé pour Autodesk Revit qui révolutionne la façon de parcourir, rechercher et charger les fichiers de familles Revit (.RFA). Il remplace le navigateur intégré fastidieux et textuel de Revit par une interface moderne, intuitive et visuelle, améliorant significativement l'expérience utilisateur et la productivité des architectes et modeleurs BIM.
 
 Fonctionnalités
 
